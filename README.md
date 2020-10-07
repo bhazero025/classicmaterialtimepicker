@@ -122,10 +122,10 @@ Selected date can be retrieved with a listener:
 val datePicker = CmtpDateDialogFragment.newInstance()
 
 // Set date listener.
-timePicker.setOnDatePickedListener { date ->
+datePicker.setOnDatePickedListener { date ->
   // Do something with picked date.
 })
-timePicker.show(supportFragmentManager, "Tag")
+datePicker.show(supportFragmentManager, "Tag")
 ```
 
 [CmtpTimeDialogFragment](https://github.com/michaldrabik/classicmaterialtimepicker/blob/master/library/src/main/java/com/michaldrabik/classicmaterialtimepicker/CmtpTimeDialogFragment.kt) and [CmtpDateDialogFragment](https://github.com/michaldrabik/classicmaterialtimepicker/blob/master/library/src/main/java/com/michaldrabik/classicmaterialtimepicker/CmtpDateDialogFragment.kt) are being used as hosts for [CmtpTimePickerView](https://github.com/michaldrabik/classicmaterialtimepicker/blob/master/library/src/main/java/com/michaldrabik/classicmaterialtimepicker/CmtpTimePickerView.kt) and [CmtpDatePickerView](https://github.com/michaldrabik/classicmaterialtimepicker/blob/master/library/src/main/java/com/michaldrabik/classicmaterialtimepicker/CmtpDatePickerView.kt) views.
